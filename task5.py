@@ -63,7 +63,7 @@ access = driveService.permissions().create(
 results = service.spreadsheets().values().batchUpdate(spreadsheetId = spreadsheetId, body = {
     "valueInputOption": "USER_ENTERED",
     "data": [
-        {"range": "Лист номер один!A1:С21",
+        {"range": "Лист номер один!A1:D21",
          "majorDimension": "COLUMNS",
          "values": [
                     xList, yList
